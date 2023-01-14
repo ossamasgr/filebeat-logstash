@@ -24,7 +24,10 @@ After Java install, install the RPM file that you downloaded for Logstash using 
 ```bash
 rpm -ivh logstash-oss-7.16.2-x86_64.rpm
 ```
-
+## install opensearch plugin
+```bash
+sudo /usr/share/logstash/bin/logstash-plugin install logstash-output-opensearch
+```
 ## Configure filebeat : 
 Change output to : 
 ```bash
