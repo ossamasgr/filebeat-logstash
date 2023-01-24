@@ -9,7 +9,15 @@
 **Logstash** : Logstash is a free and open server-side data processing pipeline that ingests data from filbeat and sends it to Opensearch
 
 ## To update EC2 machine 
-
+### Install Filebeat
+1. Download the RPM for the desired version of Filebeat:
+```bash
+wget https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-oss-7.16.2-x86_64.rpm
+```
+2. Install the Filebeat RPM file:
+```bash
+rpm -ivh filebeat-oss-7.16.2-x86_64.rpm
+```
 ### Install Logstash
 
 Download the RPM file of the desired Logstash version:
